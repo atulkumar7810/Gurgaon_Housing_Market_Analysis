@@ -7,7 +7,6 @@ matplotlib
 plotly==5.15.0
 
 # Profiling (modern replacement)
-ydata-profiling
 
 # Web Scraping
 beautifulsoup4==4.12.2
