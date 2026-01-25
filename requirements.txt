@@ -1,8 +1,11 @@
 streamlit
-pandas
+pandas==1.5.3
 numpy==1.26.4
 joblib
 scikit-learn==1.4.2
 category-encoders
 wordcloud
 beautifulsoup4
+matplotlib
+plotly
+retrying
