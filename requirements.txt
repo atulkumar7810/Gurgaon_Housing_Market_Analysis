@@ -3,3 +3,6 @@ pandas
 numpy==1.26.4
 joblib
 scikit-learn==1.4.2
+category-encoders
+wordcloud
+beautifulsoup4
