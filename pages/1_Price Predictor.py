@@ -2,19 +2,24 @@
 import streamlit as st
 import pandas as pd
 import numpy as np
+import joblib
 
 # Set page configuration
 st.set_page_config(page_title="Gurgaon Real Estate Price Predictor")
 
 st.title('Gurgaon Real Estate Price Predictor')
 
-# Load the DataFrame and pipeline model from pickled files
-with open('WebPage_Development/pickles/df.pkl', 'rb') as file:
-    df = pd.read_pickle(file)
-with open('WebPage_Development/pickles/pipeline.pkl', 'rb') as file:
-    pipeline = pd.read_pickle(file)
-with open('WebPage_Development/pickles/coef_df.pkl', 'rb') as file:
-    coef_df = pd.read_pickle(file)
+# # Load the DataFrame and pipeline model from pickled files
+# with open('WebPage_Development/pickles/df.pkl', 'rb') as file:
+#     df = pd.read_pickle(file)
+# with open('WebPage_Development/pickles/pipeline.pkl', 'rb') as file:
+#     pipeline = pd.read_pickle(file)
+# with open('WebPage_Development/pickles/coef_df.pkl', 'rb') as file:
+#     coef_df = pd.read_pickle(file)
+df = joblib.load("WebPage_Development/pickles/df.joblib")
+pipeline = joblib.load("WebPage_Development/pickles/pipeline.joblib")
+coef_df = joblib.load("WebPage_Development/pickles/coef_df.joblib")
+
 
 # Display header for user input section
 st.header('Enter you inputs')
