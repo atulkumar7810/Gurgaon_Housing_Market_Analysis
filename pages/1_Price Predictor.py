@@ -5,18 +5,9 @@ import numpy as np
 import os
 import joblib
 
-# Set page configuration
+
 st.set_page_config(page_title="Gurgaon Real Estate Price Predictor")
-
 st.title('Gurgaon Real Estate Price Predictor')
-
-# # Load the DataFrame and pipeline model from pickled files
-# with open('WebPage_Development/pickles/df.pkl', 'rb') as file:
-#     df = pd.read_pickle(file)
-# with open('WebPage_Development/pickles/pipeline.pkl', 'rb') as file:
-#     pipeline = pd.read_pickle(file)
-# with open('WebPage_Development/pickles/coef_df.pkl', 'rb') as file:
-#     coef_df = pd.read_pickle(file)
 
 
 BASE_DIR = os.path.dirname(os.path.dirname(__file__))
