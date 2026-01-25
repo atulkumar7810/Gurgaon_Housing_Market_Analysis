@@ -1,5 +1,1 @@
-<<<<<<< HEAD
 python-3.10.13
-=======
-python-3.10.13
->>>>>>> 0c96d5d5b2dd2a9895e47dcd55e71f744d4e0ade
