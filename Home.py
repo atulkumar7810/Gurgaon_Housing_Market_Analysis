@@ -59,4 +59,4 @@ st.markdown("🤝 Use sidebar → Recommend Apartments")
 st.markdown("---")
 
 # Display a support message with an email contact
-st.write("For support, contact us at atulkumarsingh7810@gmail.com")
+st.write("For support, contact us at atulkumarsingh7810@gmail.com, amriteshrai7810@gmail.com")
